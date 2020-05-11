@@ -5,7 +5,7 @@ import pyautogui, sys
 # 300,200
 MODELS = int(input('Number of models: '))
 VIEWS = int(input('Number of views per model: '))
-TIME = int(input('Expected Render Time: '))
+TIME = int(input('Expected Render Time (seconds): '))
 x, y = pyautogui.position()
 positionStr = 'X: ' + str(x).rjust(4) + ' Y: ' + str(y).rjust(4)      
 
